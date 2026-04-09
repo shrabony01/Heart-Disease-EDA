@@ -1,11 +1,20 @@
+Heart Failure Analysis & Prediction 🩺
+Project Goal: To perform a complete data science workflow—from initial exploratory analysis to building a machine learning model that predicts heart failure risk in patients.
 
-Heart Failure Exploratory Data Analysis
-Goal: To perform an exploratory data analysis (EDA) on mixed-type tabular data to identify key feature interactions related to cardiovascular disease.
+Tools & Technologies: * Python: Pandas, NumPy
 
-Tools Used: Python, Pandas, Seaborn, Matplotlib.
+Visualization: Seaborn, Matplotlib
 
-Key Insights:
+Machine Learning: Scikit-Learn (Random Forest)
 
-Patients with Asymptomatic chest pain (ASY) showed the highest frequency of heart disease.
+Phase 1: Exploratory Data Analysis (EDA)
+Key Finding: Patients with Asymptomatic chest pain (ASY) showed the highest frequency of heart disease.
 
-The boxplot analysis reveals that the median age for patients with heart disease is noticeably higher than those without.
+Observation: The median age for patients with heart disease is noticeably higher than those without.
+
+Phase 2: Machine Learning Prediction
+Model: Random Forest Classifier
+
+Performance: Achieved 88% Accuracy on the test set.
+
+Feature Importance: Using model interpretability techniques, I identified that ST_Slope, MaxHR, and Oldpeak are the strongest clinical predictors for heart failure in this dataset.
